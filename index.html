@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/style.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+    <title>Todo app</title>
+</head>
+
+<body>
+    <div class="top-img"></div>
+    <main>
+        <div class="header">
+            <h1>GALA LIST</h1>
+            <div onclick="changeTheme()" class="icono-header"></div>
+        </div>
+
+        <div class="insert-txt">
+            <div class="circulo"></div>
+            <input type="text" id="input-txt">
+        </div>
+        <div class="todos"></div>
+        <div class="remarks">
+            <div class="completedCount"></div>
+            <div onclick="clearCompleted()">Limpiar Completos</div>
+            <div class="filters">
+                <div onclick="showAll()">Todos</div>
+                <div onclick="filterActive()">Activos</div>
+                <div onclick="filterCompleted()">Completados</div>
+            </div>
+        </div>
+
+
+    </main>
+
+
+
+
+
+
+    <script src="/app.js"></script>
+</body>
+
+</html>
