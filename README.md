@@ -14,7 +14,7 @@ This project is to show the action of a to do list made with JavaScript. <br>
 ○ Also has a night mode 🌙 and an items countdown.<br>
 <br>
 <br>
-https://shopping-list.loveisgala.vercel.app/<br>
+https://to-do-list.loveisgala.vercel.app/<br>
 <br>
 ## Technologies
 Created with:
